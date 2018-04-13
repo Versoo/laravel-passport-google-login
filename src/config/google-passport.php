@@ -12,7 +12,7 @@ return [
 	'applicationName' => env( 'GoogleApplicationName', null ),
 	'clientId'        => env( 'GoogleClientId', null ),
 	'clientSecret'    => env( 'GoogleClientSecret', null ),
-	'developerKey'    => env( 'GoogleDeveloperKey', null )
+	'developerKey'    => env( 'GoogleDeveloperKey', null ),
 
 	/*
 	|--------------------------------------------------------------------------
