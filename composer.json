@@ -1,0 +1,29 @@
+{
+  "name": "versoo/laravel-passport-google-login",
+  "description": "Google Token Request Grant for Laravel Passport",
+  "require": {
+    "laravel/passport": "^5.0",
+    "google/apiclient": "^2.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcin Halak (Versoo)",
+      "email": "marcin@halak.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Versoo\\PassportGoogleLogin\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Versoo\\PassportGoogleLogin\\Providers\\GoggleLoginServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
